@@ -1,12 +1,6 @@
-#prama once
 #include "spi_controller.h"
 #include <SPI.h>
 
-//const u8int_t csA = idk;
-//const u8int_t csB = idk;
-
-#define REG_START 0x00
-#define REG_END 0x1C
 
 
 void spiControllerBegin(uint8_t csA, uint8_t csB) {
